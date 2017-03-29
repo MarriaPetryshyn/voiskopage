@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>community page</title>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
     </head>
 <body>
     <header>
@@ -33,17 +34,39 @@
         <section id="map"></section>
     </main>
     <footer>
-        <form>
-            <label>Firs name:
-                <input type="text" name="firstname">
-            </label>
-            <label>Last name:
-                <input type="text" name="lastname">
-            </label>
-            <label>Email:
-                 <input type="email" name="email">
-            </label>
-        </form>
+        <div>
+            <h3>Follow Us</h3>
+            <img class="icon" src="img/facebook.png">
+            <img class="icon" src="img/instagram.png">
+            <img class="icon" src="img/strava.png">
+        </div>
+        <div>
+            <h3>Contact information</h3>
+            <ul>
+                <li>Phone number: +38 097 661 60 44</li>
+                <li>Email: junujtexnik@gmail.com</li>
+                <li>Adress: lviv, 12 Runok Square </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Join Us</h3>
+            <form>
+                <label>Firs name:
+                    <input type="text" name="firstname">
+                </label>
+                <br>
+                <label>Last name:
+                    <input type="text" name="lastname">
+                </label>
+                <br>
+                <label>Email:
+                     <input type="email" name="email">
+                </label>
+                <br>
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
     </footer>
 </body>
 </html>
