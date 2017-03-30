@@ -1,6 +1,7 @@
-#nav {
-    width: 50%;
-    display: block;
+#main {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: grey;
 }
 
 .icon {
