@@ -9,7 +9,7 @@
     height: 40px;
 }
 
-.stareselo {
+.gallery {
     width: 300px;
     height: 200px;
 }
@@ -17,4 +17,33 @@
 .team {
     border-radius: 50%;
     width: 300px
+}
+
+.toolbar li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+#nav {
+    background-color: #FFEC4A;
+}
+
+.button {
+    background-color: #3091C9;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.events {
+    max-width: 1024px;
 }
