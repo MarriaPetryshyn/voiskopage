@@ -12,6 +12,7 @@ header {
     background-image: url("../img/headerphoto.jpg");
     background-size: 100%;
     background-position: bottom;
+    background-repeat: no-repeat;
     display: block;
     height: 602px;
     position: relative;
@@ -62,7 +63,7 @@ ul.toolbar {
     margin-bottom: 0;
     position: absolute;
     width: 100%;
-    top: 459px;
+    top: 570px;
 }
 
 .button {
