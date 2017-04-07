@@ -1,7 +1,27 @@
-#main {
-    max-width: 1024px;
+* {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
+
+body {
     margin: 0 auto;
-    background-color: #CCECEB;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url("../img/headerphoto.jpg");
+    background-size: 100%;
+    background-position: bottom;
+    display: block;
+    height: 602px;
+    position: relative;
+}
+.container {
+    width: 100%;
+}
+
+main {
+     max-width: 1116px;
 }
 
 .icon {
@@ -10,6 +30,7 @@
 }
 
 .gallery {
+    display: block;
     width: 300px;
     height: 200px;
 }
@@ -24,11 +45,24 @@
 	padding: 10px 30px;
 	margin: 0;
 	text-align: center;
-	text-decoration: none;
+}
+
+.toolbar a {
+    text-decoration: none;
+    flex-direction: row;
+}
+
+ul.toolbar {
+    margin-bottom: 0;
+    padding: 0, 50px;
 }
 
 #nav {
     background-color: #FFEC4A;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+    top: 459px;
 }
 
 .button {

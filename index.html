@@ -2,21 +2,22 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>community page</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 <body id="main">
     <header>
-        <div>
-            <h1>Військо львівське на роверах</h1>
-        </div>
-        <div>
-            <h4>«Власне, катання на велосипеді - це те, за допомогою чого ви вивчаєте контури вашої країни, кожного рвзу коли ви піднімаєтеся на схили пагорбів і спускаєтеся з них. Ви пам'ятаєте, які вони насправді, в той час як на автомобілі вас вражає тільки висота пагорба. У вас залишаться такі точні спогади про країну, лише об'їхавши її на велосипеді ». Ернест Хемінгуей</h4>
-        </div>
-        <div class="cover-photo">
-            <img src="img/headerphoto.png" alt="wheat field">
+        <div class="container">
+            <div class="main-header">
+                <h1>Військо львівське на роверах</h1>
+            </div>
+            <div>
+                <h4>«Власне, катання на велосипеді - це те, за допомогою чого ви вивчаєте контури вашої країни, кожного рвзу коли ви піднімаєтеся на схили пагорбів і спускаєтеся з них. Ви пам'ятаєте, які вони насправді, в той час як на автомобілі вас вражає тільки висота пагорба. У вас залишаться такі точні спогади про країну, лише об'їхавши її на велосипеді ». Ернест Хемінгуей</h4>
+            </div>
         </div>
         <nav id="nav">
             <ul class="toolbar">
@@ -115,19 +116,19 @@
                 <li>Адреса: Львів, пл. Ринок, 12 </li>
             </ul>
         </div>
-        <div id="join-us">
+        <div id="contact-form">
             <h3>Доєднатись до спільноти</h3>
             <form>
                 <label>Ім'я:
-                    <input type="text" name="firstname">
+                    <input type="text" name="firstname" required>
                 </label>
                 <br>
                 <label>Прізвище:
-                    <input type="text" name="lastname">
+                    <input type="text" name="lastname" required>
                 </label>
                 <br>
                 <label>Поштова скринька:
-                     <input type="email" name="email">
+                     <input type="email" name="email" required>
                 </label>
                 <br>
                 <input type="submit" value="Надіслати">
