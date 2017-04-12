@@ -10,8 +10,16 @@ body {
     background: #F4F1E6;
 }
 
-.container {
-     max-width: 1100px;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+    max-width: 1100px;
+}
+
+.flex-item {
+    margin: 15px 0px 15px 0px;
 }
 
 /*HEADER*/
@@ -96,7 +104,6 @@ p.button {
 /*MAIN*/
 
 #about {
-    margin: 50px 0px 50px 0px;
     text-align: center;
 }
 
@@ -109,7 +116,6 @@ p.button {
 /*GALLERY*/
 #gallery {
     width: 100%;
-    margin: 20px 0px;
     height: 750px;
 }
 
@@ -150,7 +156,6 @@ div.desc {
 /*TEAM*/
 #team {
     width: 100%;
-    margin: 20px 0px;
     height: 370px;
 }
 #team h3 {
@@ -184,7 +189,6 @@ div.desc {
     background-repeat: no-repeat;
     height: 600px;
     max-height: 600px;
-    margin: 20px 0px;
 }
 
 #event h2 {
@@ -219,10 +223,6 @@ div.desc {
 /*EVENT*/
 
 /*MAP*/
-#map {
-    margin: 20px 0px;
-}
-
 #map h2 {
     background-color: #343D3C;
     color: #78BDC4;
