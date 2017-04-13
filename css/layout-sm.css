@@ -1,0 +1,149 @@
+.flex-item {
+    margin: 10px 0px 10px 0px;
+}
+
+/*HEADER*/
+
+header h1 {
+   padding-left: 10px; 
+   min-width: 319px;
+}
+
+.main-heading {
+    padding: 15px 10px;
+    font-size: 0.5rem;
+    letter-spacing: 0px;
+}
+
+.heading {
+    padding: 35px;
+    bottom: 60%;
+    text-align: center;
+    font-size: 1.0rem;
+}
+
+#section02 a span {
+    top: 80%;
+}
+/*HEADER*/
+
+/*NAVIGATION*/
+
+p.button {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: stretch;
+    padding: 12px 32px;
+}
+
+.button a {
+    display: block;
+    margin: 3px 2px;
+}
+/*NAVIGATION*/
+
+.flex-container {
+    max-width: 874px;
+    
+}
+
+.about-item {
+    padding: 5px;
+}
+
+#about img {
+    display: block;
+    width: 100%;
+}
+
+#about p {
+    line-height: 1.6;
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
+
+/*GALLERY*/
+#gallery h2 {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.gallery-container {
+    margin: 10px 0px;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #298686;
+    width: 90%;
+}
+/*GALLERY*/
+
+/*TEAM*/
+#team h3 {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.team-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.description {
+    height: 138px;
+}
+
+.description h4 {
+    color: #298686;
+    padding: 7px 7px 10px 7px;
+    font-size: 1.0rem;
+}
+
+.description p {
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px
+}
+/*TEAM*/
+
+/*EVENT*/
+#event h2 {
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+#event h4 {
+    padding: 15px;
+    font-size: 1.1rem;
+    text-align: center;   
+}
+
+.button {
+    font-size: 17px;
+}
+
+#event div {
+    margin: 21%;
+}
+
+/*EVENT*/
+
+/*MAP*/
+#map h2 {
+    padding: 10px;
+    font-size: 1.3rem;;
+}
+
+iframe {
+    height: 500px
+}
+/*MAP*/
+
+.footer-content {
+    width: 100%;
+    flex-direction: column;

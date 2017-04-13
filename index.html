@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" media="(min-width: 730px) and (max-width: 874px)" href="css/layout-md.css"/>
+    <link rel="stylesheet" media="(max-width: 729px)" href="css/layout-sm.css"/>
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
 </head>
 <body id="main">
@@ -19,6 +21,9 @@
             <div class="heading">
                 <h4>«Власне, катання на велосипеді - це те, за допомогою чого ви вивчаєте контури вашої країни. Кожного разу коли ви піднімаєтеся на схили пагорбів і спускаєтеся з них, ви пам'ятаєте, які вони насправді, в той час як на автомобілі вас вражає тільки висота пагорба. У вас залишаться такі точні спогади про країну, лише об'їхавши її на велосипеді». <b>Ернест Хемінгуей</b></h4>
             </div>
+            <section id="section02" class="demo">
+            	<a href="#nav"><span></span></a>
+            </section>
         </div>
     </header>
     <!--HEADER-->
@@ -52,12 +57,16 @@
     <!--NAVIGATION-->
     <!--MAIN-->
     <main class="flex-container">
-        <section id=about class="flex-item">
-            <div>
+        <section id=about class="flex-item flex-about">
+            <div class="about-item">
                 <h2>Про нас</h2>
             </div>
-            <p>Група любителів вкручувати педалі і споглядати всякі пам`ятки рідного краю. Виникла спонтанно, коли двоє дівчат вирішили відвідати Жовкву. Круїз №1 до Жовкви відбувся 30 серпня 2014 року. Саме з цього круїзу все і почалося. Почалися обговорення, залучення нових людей, нові знайомства і спільні складання нових маршрутів. А ще...а ще були соняшники. На даному етапі, ми не обмежуємось Львівською областю, а складаємо маршрути по Тернопільській, Житомирській, Хмельницькій і завойовуємо все нові і нові міста...</p>
-            <img src="img/communityphoto.jpg" alt="our community photo">
+            <div class="about-item">
+                <p>Група любителів вкручувати педалі і споглядати всякі пам`ятки рідного краю. Виникла спонтанно, коли двоє дівчат вирішили відвідати Жовкву. Круїз №1 до Жовкви відбувся 30 серпня 2014 року. Саме з цього круїзу все і почалося. Почалися обговорення, залучення нових людей, нові знайомства і спільні складання нових маршрутів. А ще...а ще були соняшники. На даному етапі, ми не обмежуємось Львівською областю, а складаємо маршрути по Тернопільській, Житомирській, Хмельницькій і завойовуємо все нові і нові міста...</p>
+            </div>
+            <div class="about-item">
+                <img src="img/communityphoto.jpg" alt="our community photo">
+            </div>
         </section>
         <section id=gallery class="flex-item">
             <h2>Наші круїзи</h2>
@@ -101,24 +110,42 @@
             </div>
         </section>
          <section id=team class="flex-item">
-            <h3>Наша команда</h3>
+            <div class="top-team">
+                <h3>Наша команда</h3>
+            </div>
             <div class="team-container">
-                <div class="team-item">
-                    <h4>Мар'яна Лагуш</h4>
-                    <img class="team" alt="team member" src="team/lagush.jpg">
+                <div class="team-item box">
+                    <div class="description">
+                        <h4>Мар'яна Лагуш та Шег</h4>
+                        <p>Мар'яна є засновником спільноти і вже напротязі чотирьох років активно круїзить. Її велосипедний стаж аж сім років. Має три велосипеди. Шег доєднався рік пізніше, обожнює фікс.</p>
+                    </div>    
+                    <div class="team-box">
+                        <img class="team" alt="team member" src="team/lagush.jpg">
+                     </div>    
                 </div>
-                <div class="team-item">
-                    <h4>Діма Гурин</h4>
-                    <img class="team" alt="team member" src="team/dima.jpg">
+                <div class="team-item box">
+                    <div class="description">
+                        <h4>Діма Гурин</h4>
+                        <p>Діма Гурин доєднався до Війська лише два роки тому, його перший круїз з нами був до Олики та Клевані. Відчуває наближення старості, тому перебрався на 28-мі колеса.</p>
+                    </div>
+                    <div class="team-box">
+                        <img class="team" alt="team member" src="team/dima.jpg">
+                     </div>
                 </div>
-                <div class="team-item">
-                    <h4>Мураха</h4>
-                    <img class="team" alt="team member" src="team/murakha.jpg">
+                <div class="team-item box">
+                    <div class="description">
+                        <h4>Мураха</h4>
+                        <p>Мураха наймовчазніший учасник спільноти, але і найнадійніший. Має один роверик і його дуже любить. З військом вже два роки.</p>
+                    </div>
+                    <div class="team-box">
+                        <img class="team" alt="team member" src="team/murakha.jpg">
+                    </div>
                 </div>
             </div>
         </section>
         <section id=event class="flex-item">
             <h2>Найближчі події</h2>
+            <h4>Круїз "Житомир - Андрушівська астрономічна обсерваторія Липневий ранок - Червоне - Бердичів" 29 квітня 2017 року. </h4>
             <div>
                 <a href="https://www.facebook.com/events/1683199251983120/" class="button">Доєднатись до круїзу</a>
             </div>
