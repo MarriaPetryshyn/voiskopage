@@ -181,23 +181,28 @@
                 <h3 class="footer-heading">Доєднатись до спільноти</h3>
                 <form>
                     <label>Ім'я:
-                        <input type="text" name="firstname" required>
+                        <input type="text" id="visitor-name" name="firstname" required>
                     </label>
                     <br>
                     <label>Прізвище:
-                        <input type="text" name="lastname" required>
+                        <input type="text" id="visitor-surname" name="lastname" required>
                     </label>
                     <br>
                     <label>Поштова скринька:
-                         <input type="email" name="email" required>
+                         <input type="email" id="visitor-email" name="email" required>
                     </label>
                     <br>
-                    <input type="submit" value="Надіслати">
+                    <input type="submit" id="btn-send" value="Надіслати">
                     <input type="reset" value="Відмінити">
                 </form>
+                <p id="message"></p>
             </div>
         </div>    
     </footer>
     <!--FOOTER-->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
 </body>
 </html>
