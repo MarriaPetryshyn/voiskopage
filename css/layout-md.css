@@ -87,6 +87,12 @@ div.gallery {
     font-size: 1.5rem;
 }
 
+.team-item {
+    width: 95%;
+    height: 100%;
+    margin: 10px;
+}
+
 .team-container {
     display: flex;
     flex-direction: column;
@@ -94,6 +100,10 @@ div.gallery {
 
 .description {
     height: 130px;
+}
+
+.description p {
+    overflow:hidden;
 }
 
 .description h4 {
